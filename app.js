@@ -74,7 +74,6 @@ fetch("https://ytstream-download-youtube-videos.p.rapidapi.com/dl?id="+ytID+"&ge
 })
 .then(data =>{
 	document.getElementById('showVideo').innerHTML= `<div class="vidCard"><p>Title: ${data.title}</p><p>Length: ${data.length}</p><p>Description: ${data.description}</p><p>Channel: ${data.author}</p></div>`
-	document.getElementById('link1').innerHTML=`<audio src="${data.link["139"][0]}" controls>360</audio>`
 	document.getElementById('link2').innerHTML=`<video src="${data.link["18"][0]}" controls>360</video>`
 	document.getElementById('link3').innerHTML=`<video src="${data.link["22"][0]}" controls>720p</video>`
       console.log(data.link["133"][0])
@@ -82,6 +81,27 @@ fetch("https://ytstream-download-youtube-videos.p.rapidapi.com/dl?id="+ytID+"&ge
 	console.log('Title: ',data.title);
 	console.log('Duration: ',data.length);
 
+})
+.catch(err => {
+	console.error(err);
+});
+}
+
+function audioGenrate(){
+	const audioID= document.getElementById('audioID').value;
+	fetch("https://ytstream-download-youtube-videos.p.rapidapi.com/dl?id="+audioID+"&geo=DE", {
+	"method": "GET",
+	"headers": {
+		"x-rapidapi-host": "ytstream-download-youtube-videos.p.rapidapi.com",
+		"x-rapidapi-key": key
+	}
+})
+.then(response => {
+	return response.json();
+})
+.then(data =>{
+	document.getElementById('showAudieo').innerHTML= `<div class="audCard"><p>Title: ${data.title}</p><p>Length: ${data.length}</p><p>Channel: ${data.author}</p></div>`
+	document.getElementById('link1').innerHTML=`<audio src="${data.link["139"][0]}" controls>360</audio>`
 })
 .catch(err => {
 	console.error(err);
