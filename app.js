@@ -74,11 +74,9 @@ fetch("https://ytstream-download-youtube-videos.p.rapidapi.com/dl?id="+ytID+"&ge
 })
 .then(data =>{
 	document.getElementById('showVideo').innerHTML= `<div class="vidCard"><p>Title: ${data.title}</p><p>Length: ${data.length}</p><p>Description: ${data.description}</p><p>Channel: ${data.author}</p></div>`
-	document.getElementById('link1').innerHTML=`<video src="${data.link["133"][0]}" controls>240p</video>`
-	document.getElementById('link2').innerHTML=`<video src="${data.link["134"][0]}" controls>360</video>`
-	document.getElementById('link3').innerHTML=`<video src="${data.link["244"][0]}" controls>480p</video>`
-	document.getElementById('link4').innerHTML=`<video src="${data.link["136"][0]}" controls>720p</video>`
-	document.getElementById('link5').innerHTML=`<video src="${data.link["399"][0]}" controls>1080p</video>`
+	document.getElementById('link1').innerHTML=`<audio src="${data.link["139"][0]}" controls>360</audio>`
+	document.getElementById('link2').innerHTML=`<video src="${data.link["18"][0]}" controls>360</video>`
+	document.getElementById('link3').innerHTML=`<video src="${data.link["22"][0]}" controls>720p</video>`
       console.log(data.link["133"][0])
       console.log(data.link["134"][0])
 	console.log('Title: ',data.title);
