@@ -88,10 +88,21 @@ button{
     input{
         font-size: 20px;
         text-align: center;
-        width: 300px;
-        border-radius: 10px;
-        margin-bottom: 10px;
+        width: 240px;
+        border-radius: 5px;
+        margin-bottom: 5px;
     }
+    .getid{
+    margin: 7px;
+    padding: 5px;
+    border-radius: 10px;
+    
+}
+.geVideo{
+    margin: 7px;
+    padding: 5px; 
+    border-radius: 10px; 
+}
     button{
         font-size:20px;
         padding:5px;
@@ -102,15 +113,7 @@ button{
         height: 160px;
     }
     .serCard1{
-        background-color: antiquewhite;
-        font-size:30px;
-        position: relative;
-        margin: 10px;
-        padding: 8px;
-        border-radius:10px;
-    }
-    .serCard1{
-        font-size:30px;
+        font-size:25px;
         position: relative;
         margin: 5px;
         padding: 5px;
