@@ -10,6 +10,7 @@
 </head>
 <body>
    <h1>VKG | <i class="fab fa-youtube"></i> Video Downloader</h1>
+   <p id="head1">This is simple WebApp which can be used to search on <b><i class="fab fa-youtube"></i> Youtube</b> as well as you can download the Video as well by Youtube Video ID. Just Simply copy the Video ID of the Video which you just searched there and It'll load one <i class="fas fa-headphones-alt"></i>&nbsp;Audio file and two <i class="fas fa-play-circle"></i>&nbsp; Video files of 360p and 720p respectively.</p>
    <div class="getid">
     <label for="youtube">Search Here to Get Youtube id: </label>
     <input type="text" id="searchID" placeholder="Search Here"> <br>
@@ -23,11 +24,18 @@
     <button onclick="window.location.reload();"><i class="fas fa-sync-alt"></i> Refresh</button>
     <button onclick="videoGenrate()"><i class="fab fa-youtube"></i> Click To Generate Video Links</button>
     <div id="showVideo"></div>
-    <div id="link1"></div>
     <div id="link2"></div>
     <div id="link3"></div>
 </div>
-
+<div id="getAudio">
+    <label for="Audio">Enter YT ID for Audio: </label>
+    <input id="audioID" type="text" placeholder="Enter YT Video ID for Audio"> <br>
+    <button onclick="window.location.reload();"><i class="fas fa-sync-alt"></i> Refresh</button>
+    <button onclick="audioGenrate()"><i class="fab fa-youtube"></i> Click To Generate Video Links</button>
+    <div id="showAudieo"></div>
+    <div id="link1"></div>
+</div>
+<footer>&copy; This Site is <i class="fas fa-laptop-code"></i> with <i class="fas fa-heart"></i> by <a href="https://in.linkedin.com/in/vikas-kumar-gond-bb1991201" target="_blank" rel="noopener noreferrer">Vikas Kumar Gond &nbsp;</a> <a href="https://in.linkedin.com/in/vikas-kumar-gond-bb1991201"><i class="fab fa-linkedin-in"></i> Linkdin Profile&nbsp;</a> <a href="https://github.com/VikasKrGond"><i class="fab fa-github"></i> GitHub Profile</a></footer>
 
 <script src="https://kit.fontawesome.com/6a790d02ef.js" crossorigin="anonymous"></script>
     <script type='text/javascript' src='config.js'></script>
