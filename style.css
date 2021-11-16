@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(120,120,121,1) 46%, rgba(37,38,38,1) 100%);
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    text-shadow: 6px 2px 4px;
+}
+.getid{
+    text-align: center;
+    margin: 50px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.geVideo{
+    text-align: center;
+    margin: 50px;
+    padding: 30px; 
+    background-color: rgba(255, 255, 255, 0.897);
+    border-radius: 20px;
+    box-shadow: -10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: -10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+label {
+    font-size: 40px;
+    font-weight: bold;
+}
+input{
+    font-size: 35px;
+    text-align: center;
+    width: 600px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 11px 26px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 11px 26px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 11px 26px 0px rgba(0,0,0,0.75);
+}
+button{
+    font-size:35px;
+    padding:5px;
+}
+
+.serCard1{
+    background-color: antiquewhite;
+    font-size:40px;
+    position: relative;
+    margin: 20px;
+    padding: 20px;
+    border-radius:20px;
+    box-shadow: 0px 11px 26px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 11px 26px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 11px 26px 0px rgba(0,0,0,0.75);
+}
+.serCard{
+    background-color: antiquewhite;
+    margin: 20px;
+    padding: 20px;
+    border-radius:20px;
+    box-shadow: 0px 11px 26px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 11px 26px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 11px 26px 0px rgba(0,0,0,0.75);
+}
+.thumb{
+    width: 900px;
+    height: 450px;
+    border-radius:15px;
+    margin: 15px;
+    box-shadow: 0px 11px 26px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 11px 26px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 11px 26px 0px rgba(0,0,0,0.75);
+}

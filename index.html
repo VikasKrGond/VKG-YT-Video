@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VKG | YT Downloader </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <h1>VKG | <i class="fab fa-youtube"></i> Video Downloader</h1>
+   <div class="getid">
+    <label for="youtube">Search Here to Get Youtube id: </label>
+    <input type="text" id="searchID" placeholder="Search Here"> <br>
+    <button onclick="window.location.reload();"><i class="fas fa-sync-alt"></i> Refresh</button>
+    <button onclick="getID()"><i class="fas fa-search"></i> Search Here</button> <br>
+    <div id="SearchResults"></div>
+</div>
+<div class="geVideo">
+    <label for="ytVIDEO">Search Here for Video Link: </label>
+    <input type="text" placeholder="Enter Youtube Video ID" id="ytID"> <br>
+    <button onclick="window.location.reload();"><i class="fas fa-sync-alt"></i> Refresh</button>
+    <button onclick="videoGenrate()"><i class="fab fa-youtube"></i> Click To Generate Video Links</button>
+    <div id="showVideo"></div>
+    <div id="link1"></div>
+    <div id="link2"></div>
+    <div id="link3"></div>
+    <div id="link4"></div>
+    <div id="link5"></div>
+</div>
+
+
+<script src="https://kit.fontawesome.com/6a790d02ef.js" crossorigin="anonymous"></script>
+    <script type='text/javascript' src='config.js'></script>
+    <script src="app.js"></script>
+<body>
+</html>    
