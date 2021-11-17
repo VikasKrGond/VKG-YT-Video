@@ -59,6 +59,7 @@ input{
 button{
     font-size:35px;
     padding:5px;
+    border-radius:10px;
 }
 
 .serCard1{
@@ -210,8 +211,8 @@ footer a:hover{
         font-size:22px;
     }
     #videoDemo{
-        margin: 5px;
-        width: 320px;
+        margin: 4px;
+        width: 310px;
         border-radius:10px;
        
      }
