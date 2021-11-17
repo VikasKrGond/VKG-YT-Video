@@ -126,6 +126,15 @@ footer a:hover{
     padding:5px;
     font-size:32px;
 }
+#videoDemo{
+   margin: 30px;
+   width: 1150px;
+   border-radius:20px;
+   box-shadow: 0px 11px 26px 0px rgba(235, 232, 232, 0.75);
+   -webkit-box-shadow: 0px 11px 26px 0px rgba(221, 216, 216, 0.75);
+   -moz-box-shadow: 0px 11px 26px 0px rgba(221, 214, 214, 0.75);
+}
+
 /* Media queries */
 
 @media only screen and (max-width: 600px) {
@@ -173,8 +182,9 @@ footer a:hover{
         border-radius: 10px;
     }
     video{
-        width: 400px;
+        width: 300px;
         height: 280px;
+        border-radius:10px;
     }
     #getAudio{
         margin: 10px;
@@ -199,4 +209,10 @@ footer a:hover{
         padding:2px;
         font-size:22px;
     }
+    #videoDemo{
+        margin: 5px;
+        width: 370px;
+        border-radius:10px;
+       
+     }
   }
